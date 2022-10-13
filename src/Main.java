@@ -5,5 +5,7 @@ public class Main {
 
         valueConverter.gramsToLitters(5000);
         valueConverter.littersToHalons(10);
+
+        valueConverter.celsiusToFahrenheit(10);
     }
 }

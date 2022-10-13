@@ -15,4 +15,9 @@ public class valueConverter {
         num = num * 0.219969;
         System.out.println("Литры в галонах " + num);
     }
+
+    public static void celsiusToFahrenheit(double num){
+        num = ((num * 1.8000) + 32);
+        System.out.println("Цельсия в Фаренгейтах " + num);
+    }
 }
